@@ -80,22 +80,22 @@ python src/visualizer.py
 bash
 jupyter notebook notebooks/01_analysis_demo.ipynb
 
-##📊 Результаты анализа
+## 📊 Результаты анализа
 🔴 Топ проблемных складов
 Склады с наибольшим средним временем обработки посылок (в часах).
 Красная пунктирная линия — норматив (8 часов).
 
-##<p align="center"> <img src="output/figures/bottleneck_ranking.png" alt="Узкие места" width="90%"> </p>
+## <p align="center"> <img src="output/figures/bottleneck_ranking.png" alt="Узкие места" width="90%"> </p>
 📊 Распределение времени обработки
 Гистограмма показывает, что большинство посылок обрабатывается в пределах 10 часов,
 но есть длинный хвост аномальных задержек (до 60+ часов).
 
-##<p align="center"> <img src="output/figures/processing_time_distribution.png" alt="Распределение времени" width="90%"> </p>
+## <p align="center"> <img src="output/figures/processing_time_distribution.png" alt="Распределение времени" width="90%"> </p>
 🔥 Тепловая карта загрузки по дням недели
 Наибольший поток прибытий приходится на понедельник и вторник.
 Это создаёт пиковую нагрузку на сортировочные центры.
 
-##<p align="center"> <img src="output/figures/heatmap_weekly_load.png" alt="Тепловая карта" width="90%"> </p>
+## <p align="center"> <img src="output/figures/heatmap_weekly_load.png" alt="Тепловая карта" width="90%"> </p>
 ## 📝 Выводы
 
 | 🚨 Проблема | 📍 Локация | 💡 Рекомендация |
