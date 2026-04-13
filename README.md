@@ -50,23 +50,24 @@ git clone https://github.com/beaulo0o/logistics-route-analyzer.git
 cd logistics-route-analyzer
 2. Создать виртуальное окружение
 Windows:
-
-bash
+```
+```bash
 python -m venv venv
 venv\Scripts\activate
 Mac / Linux:
-
-bash
+```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 3. Установить зависимости
-bash
+```
+```bash
 pip install -r requirements.txt
 4. Запустить пайплайн анализа
 bash
 # Генерация синтетических данных (500 посылок)
 python src/data_generator.py
-
+```
 # Загрузка данных в SQLite и создание представлений
 python src/db_loader.py
 
