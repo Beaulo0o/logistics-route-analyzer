@@ -91,7 +91,7 @@ python src/visualizer.py
 ```
 
 5. Открыть Jupyter Notebook (опционально)
-6. 
+   
 ```bash
 jupyter notebook notebooks/01_analysis_demo.ipynb
 ```
