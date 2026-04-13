@@ -51,30 +51,35 @@ cd logistics-route-analyzer
 2. Создать виртуальное окружение
 Windows:
 ```
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 Mac / Linux:
 ```
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 3. Установить зависимости
 ```
+
 ```bash
 pip install -r requirements.txt
 4. Запустить пайплайн анализа
-bash
+```
+
+```bash
 # Генерация синтетических данных (500 посылок)
 python src/data_generator.py
 ```
-Загрузка данных в SQLite и создание представлений
+# Загрузка данных в SQLite и создание представлений
 python src/db_loader.py
 
-Анализ узких мест (вывод в консоль)
+# Анализ узких мест (вывод в консоль)
 python src/analyzer.py
 
-Визуализация результатов (сохранение PNG)
+# Визуализация результатов (сохранение PNG)
 python src/visualizer.py
 5. Открыть Jupyter Notebook (опционально)
 bash
