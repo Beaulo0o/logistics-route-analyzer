@@ -1,0 +1,38 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Данные (кроме маленьких примеров)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Результаты (графики не храним, генерируем при запуске)
+output/
+!output/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
