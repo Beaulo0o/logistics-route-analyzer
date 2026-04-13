@@ -48,31 +48,38 @@
 ```bash
 git clone https://github.com/beaulo0o/logistics-route-analyzer.git
 cd logistics-route-analyzer
+```
+
 2. Создать виртуальное окружение
 Windows:
-```
+
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
-Mac / Linux:
 ```
+Mac / Linux:
+
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Установить зависимости
 ```
+
+3. Установить зависимости
+
 
 ```bash
 pip install -r requirements.txt
-4. Запустить пайплайн анализа
 ```
+
+4. Запустить пайплайн анализа
+
 
 ```bash
 # Генерация синтетических данных (500 посылок)
 python src/data_generator.py
-```
+
 # Загрузка данных в SQLite и создание представлений
 python src/db_loader.py
 
@@ -81,10 +88,13 @@ python src/analyzer.py
 
 # Визуализация результатов (сохранение PNG)
 python src/visualizer.py
-5. Открыть Jupyter Notebook (опционально)
-bash
-jupyter notebook notebooks/01_analysis_demo.ipynb
+```
 
+5. Открыть Jupyter Notebook (опционально)
+6. 
+```bash
+jupyter notebook notebooks/01_analysis_demo.ipynb
+```
 ## 📊 Результаты анализа
 🔴 Топ проблемных складов
 Склады с наибольшим средним временем обработки посылок (в часах).
