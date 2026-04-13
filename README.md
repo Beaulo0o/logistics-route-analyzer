@@ -129,9 +129,6 @@ jupyter notebook notebooks/01_analysis_demo.ipynb
 
 Повышение удовлетворённости клиентов
 
-## 📄 Лицензия
-Проект распространяется под лицензией MIT.
-Подробности в файле LICENSE.
 
 ## 👤 Автор
 beaulo0o
