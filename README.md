@@ -29,6 +29,7 @@
 Данные о перемещении посылок разрознены и требуют аналитической обработки.
 
 ### Задачи проекта:
+
 | № | Задача | Инструмент |
 |---|--------|------------|
 | 1️⃣ | Собрать историю перемещений посылок | SQL (SQLite) |
@@ -53,3 +54,35 @@
 ---
 
 ## 📂 Структура проекта
+logistics-route-analyzer/
+│
+├── README.md # Документация проекта
+├── requirements.txt # Зависимости Python
+├── .gitignore # Игнорируемые файлы Git
+├── logistics.db # База данных SQLite (после запуска)
+│
+├── data/
+│ ├── raw/ # Сырые сгенерированные данные
+│ │ └── delivery_log.csv
+│ └── processed/ # Обработанные отчёты
+│ └── bottlenecks_report.csv
+│
+├── sql/ # SQL-скрипты
+│ ├── 01_init_db.sql # Создание таблиц и представлений
+│ ├── 02_insert_sample.sql # Пример ручной вставки
+│ └── 03_query_bottlenecks.sql # Аналитические запросы
+│
+├── src/ # Исходный код Python
+│ ├── data_generator.py # Генератор синтетических логов
+│ ├── db_loader.py # Загрузка CSV в SQLite
+│ ├── analyzer.py # Поиск узких мест
+│ └── visualizer.py # Построение графиков
+│
+├── notebooks/ # Jupyter ноутбуки
+│ └── 01_analysis_demo.ipynb # Интерактивный EDA
+│
+└── output/ # Результаты визуализации
+└── figures/
+├── bottleneck_ranking.png
+├── processing_time_distribution.png
+└── heatmap_weekly_load.png
