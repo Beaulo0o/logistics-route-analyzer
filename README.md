@@ -54,6 +54,7 @@
 ---
 
 ## 📂 Структура проекта
+"""
 logistics-route-analyzer/
 │
 ├── README.md # Документация проекта
@@ -86,3 +87,4 @@ logistics-route-analyzer/
 ├── bottleneck_ranking.png
 ├── processing_time_distribution.png
 └── heatmap_weekly_load.png
+"""
