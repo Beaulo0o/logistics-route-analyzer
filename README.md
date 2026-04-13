@@ -1,34 +1,55 @@
-# 🚚 LogiX Route Analyzer
+# 🚚 Logistics Route Analyzer
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
-[![SQLite](https://img.shields.io/badge/SQLite-3.35+-green.svg)](https://sqlite.org)
-[![Pandas](https://img.shields.io/badge/Pandas-1.5+-red.svg)](https://pandas.pydata.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![SQLite](https://img.shields.io/badge/SQLite-3.35+-green?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5+-red?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6+-orange?style=for-the-badge)](https://matplotlib.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Учебный проект по анализу логистических маршрутов.**
+> **Учебный проект по анализу логистических маршрутов**  
+> Поиск узких мест в цепочке поставок с помощью SQL и визуализация в Python.
 
-Цель: Найти узкие места (задержки) в цепочке поставок, обработав сырые логи с помощью **SQL** и визуализировав результаты в **Python (Matplotlib / Seaborn)**.
+---
+
+## 📖 Оглавление
+
+- [🎯 Проблематика](#-проблематика)
+- [🛠 Стек технологий](#-стек-технологий)
+- [📂 Структура проекта](#-структура-проекта)
+- [🚀 Быстрый старт](#-быстрый-старт)
+- [📊 Результаты анализа](#-результаты-анализа)
+- [📝 Выводы](#-выводы)
+- [📄 Лицензия](#-лицензия)
+
+---
 
 ## 🎯 Проблематика
-Виртуальная логистическая компания сталкивается с нарушением сроков доставки.
-Данные разрознены. Необходимо:
-1. Собрать историю перемещений посылок.
-2. Найти склады с аномально долгим временем обработки.
-3. Визуализировать "бутылочное горлышко".
+
+Виртуальная логистическая компания сталкивается с **систематическим нарушением сроков доставки**.  
+Данные о перемещении посылок разрознены и требуют аналитической обработки.
+
+### Задачи проекта:
+| № | Задача | Инструмент |
+|---|--------|------------|
+| 1️⃣ | Собрать историю перемещений посылок | SQL (SQLite) |
+| 2️⃣ | Найти склады с аномально долгим временем обработки | Оконные функции SQL |
+| 3️⃣ | Визуализировать «бутылочное горлышко» | Python (Matplotlib, Seaborn) |
+| 4️⃣ | Сформулировать рекомендации | Jupyter Notebook |
+
+---
 
 ## 🛠 Стек технологий
-- **Data Processing:** Pandas, NumPy
-- **Database:** SQLite 3, SQLAlchemy (Core)
-- **Visualization:** Matplotlib, Seaborn
-- **Dev Tools:** Git, Jupyter Notebook, Faker (для генерации данных)
 
-## 📊 Результаты анализа
+| Категория | Инструменты |
+|-----------|-------------|
+| **Язык** | Python 3.9+ |
+| **Обработка данных** | Pandas, NumPy |
+| **База данных** | SQLite 3 |
+| **Визуализация** | Matplotlib, Seaborn |
+| **Генерация данных** | Faker |
+| **Интерактивный анализ** | Jupyter Notebook |
+| **Контроль версий** | Git, GitHub |
 
-### Топ проблемных складов
-![Узкие места](output/figures/bottleneck_ranking.png)
+---
 
-### Распределение времени обработки
-![Время обработки](output/figures/processing_time_distribution.png)
-
-### Тепловая карта загрузки
-![Тепловая карта](output/figures/heatmap_weekly_load.png)
+## 📂 Структура проекта
