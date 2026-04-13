@@ -22,4 +22,13 @@
 - **Visualization:** Matplotlib, Seaborn
 - **Dev Tools:** Git, Jupyter Notebook, Faker (для генерации данных)
 
-## 📂 Структура проекта
+## 📊 Результаты анализа
+
+### Топ проблемных складов
+![Узкие места](output/figures/bottleneck_ranking.png)
+
+### Распределение времени обработки
+![Время обработки](output/figures/processing_time_distribution.png)
+
+### Тепловая карта загрузки
+![Тепловая карта](output/figures/heatmap_weekly_load.png)
