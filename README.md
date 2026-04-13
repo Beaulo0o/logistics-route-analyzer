@@ -97,7 +97,7 @@ jupyter notebook notebooks/01_analysis_demo.ipynb
 Это создаёт пиковую нагрузку на сортировочные центры.
 
 <p align="center"> <img src="output/figures/heatmap_weekly_load.png" alt="Тепловая карта" width="90%"> </p>
-## 📝 Выводы
+## ## 📝 Выводы
 
 | 🚨 Проблема | 📍 Локация | 💡 Рекомендация |
 |-------------|------------|-----------------|
