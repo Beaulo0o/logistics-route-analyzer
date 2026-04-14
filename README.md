@@ -132,6 +132,5 @@ jupyter notebook notebooks/01_analysis_demo.ipynb
 
 ## 👤 Автор
 beaulo0o
-https://img.shields.io/badge/GitHub-beaulo0o-181717?style=flat&logo=github
 
 <p align="center"> <sub>⭐ Если проект оказался полезным, поставь звёздочку на GitHub!</sub> </p> 
