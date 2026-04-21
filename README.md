@@ -1,4 +1,4 @@
-# 🚚 Logistics Route Analyzer
+#  Logistics Route Analyzer
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![SQLite](https://img.shields.io/badge/SQLite-3.35-green?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
@@ -34,7 +34,7 @@
 
 ---
 
-## 🛠 Стек технологий
+##  Стек технологий
 
 | Категория | Инструменты |
 |-----------|-------------|
