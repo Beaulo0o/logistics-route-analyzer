@@ -4,7 +4,14 @@
 [![SQLite](https://img.shields.io/badge/SQLite-3.35-green?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
 [![Pandas](https://img.shields.io/badge/Pandas-1.5-red?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6-orange?style=for-the-badge)](https://matplotlib.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+[![Faker](https://img.shields.io/badge/Faker-Data_Gen-6C3483?style=for-the-badge)](https://faker.readthedocs.io)
 
+[ Проблематика](#-проблематика) •
+[ Быстрый старт](#-быстрый-старт) •
+[ Стек](#-стек-технологий) •
+[ Результаты](#-результаты-анализа) •
+[ Выводы](#-выводы) •
 
 > **Учебный проект по анализу логистических маршрутов**  
 > Поиск узких мест в цепочке поставок с помощью SQL и визуализация в Python.
