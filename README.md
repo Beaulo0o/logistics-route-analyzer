@@ -1,17 +1,17 @@
 # 🚚 Logistics Route Analyzer
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![SQLite](https://img.shields.io/badge/SQLite-3.35+-green?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
-[![Pandas](https://img.shields.io/badge/Pandas-1.5+-red?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6+-orange?style=for-the-badge)](https://matplotlib.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![SQLite](https://img.shields.io/badge/SQLite-3.35-green?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5-red?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6-orange?style=for-the-badge)](https://matplotlib.org)
+
 
 > **Учебный проект по анализу логистических маршрутов**  
 > Поиск узких мест в цепочке поставок с помощью SQL и визуализация в Python.
 
 ---
 
-## 🎯 Проблематика
+##  Проблематика
 
 Виртуальная логистическая компания сталкивается с **систематическим нарушением сроков доставки**.  
 Данные о перемещении посылок разрознены и требуют аналитической обработки.
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Быстрый старт
+##  Быстрый старт
 
 ### 1. Клонировать репозиторий
 
@@ -95,25 +95,25 @@ python src/visualizer.py
 ```bash
 jupyter notebook notebooks/01_analysis_demo.ipynb
 ```
-## 📊 Результаты анализа
+## Результаты анализа
 🔴 Топ проблемных складов
 Склады с наибольшим средним временем обработки посылок (в часах).
 Красная пунктирная линия — норматив (8 часов).
 
 <p align="center"> <img src="output/figures/bottleneck_ranking.png" alt="Узкие места" width="90%"> </p>
-📊 Распределение времени обработки
+ Распределение времени обработки
 Гистограмма показывает, что большинство посылок обрабатывается в пределах 10 часов,
 но есть длинный хвост аномальных задержек (до 60+ часов).
 
 <p align="center"> <img src="output/figures/processing_time_distribution.png" alt="Распределение времени" width="90%"> </p>
-🔥 Тепловая карта загрузки по дням недели
+ Тепловая карта загрузки по дням недели
 
 Наибольший поток прибытий приходится на **понедельник и вторник**.  
 Это создаёт пиковую нагрузку на сортировочные центры.
 
 <p align="center"> <img src="output/figures/heatmap_weekly_load.png" alt="Тепловая карта" width="90%"> </p>
 
-## 📝 Выводы
+##  Выводы
 
 | 🚨 Проблема | 📍 Локация | 💡 Рекомендация |
 |-------------|------------|-----------------|
@@ -122,7 +122,7 @@ jupyter notebook notebooks/01_analysis_demo.ipynb
 | Пиковая нагрузка | Все склады (Пн-Вт) | Усиление смен в начале недели |
 | Длинный хвост задержек | Отдельные посылки > 48 ч | Внедрение системы алертов |
 
-## 📈 Ожидаемый эффект от внедрения рекомендаций
+##  Ожидаемый эффект от внедрения рекомендаций
 Сокращение среднего времени обработки на 25-30%
 
 Снижение количества посылок с задержкой >24ч на 40%
@@ -130,7 +130,7 @@ jupyter notebook notebooks/01_analysis_demo.ipynb
 Повышение удовлетворённости клиентов
 
 
-## 👤 Автор
+##  Автор
 beaulo0o
 
 <p align="center"> <sub>⭐ Если проект оказался полезным, поставь звёздочку на GitHub!</sub> </p> 
